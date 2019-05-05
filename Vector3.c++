@@ -11,9 +11,7 @@ template <typename T> class my_vector {
 
 public:
   using pointer = T *;
-
   using iterator = pointer;
-
 private:
   pointer _b = nullptr;
   pointer _e = nullptr;
